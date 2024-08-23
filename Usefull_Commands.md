@@ -15,7 +15,7 @@ git config --global user.email
 eval $(ssh-agent -s)
 
 # define where the keys are located
-ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/wsl_blue
 
 # More extensive troubleshooting and even automated fixing can be done with:
 ssh -vT git@github.com
