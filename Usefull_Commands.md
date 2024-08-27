@@ -63,7 +63,6 @@ docker logs -f postgres_container
 # run and connecting to postgres
 docker exec -it postgres_container psql -U postgres
 
-
 # ==================  POSTGRES ========================
 
 

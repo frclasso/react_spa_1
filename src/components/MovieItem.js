@@ -1,5 +1,7 @@
-export const MovieItem = ({ title }) => (
+import { Link } from "react-router-dom";
+
+export const MovieItem = ({ title, id }) => (
     <li>
-        {title}
+        <Link to={`movie/$movie.id`}>{movie.title}</Link>
     </li>
 );

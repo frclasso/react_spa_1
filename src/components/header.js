@@ -1,5 +1,5 @@
-import { HeaderContainer } from "../../styles/HeaderrContainer";
-import { MainMenu } from "./mainmenu";
+import { HeaderContainer } from "../styles/HeaderrContainer";
+import { MainMenu } from "./MainMenu";
 
 export const Header = () => (
     <HeaderContainer>
